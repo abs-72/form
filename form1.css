@@ -1,0 +1,182 @@
+        /* Ghulam Abbas
+        Roll # 030, section A 
+        sem 4, BS DFCS */
+        body {
+          display: flex;
+          background-position:center; 
+          background-attachment: fixed;
+          margin-top: 5px;
+          font-family: Arial, sans-serif;
+          padding: 40;
+    
+      }
+      form {
+          width: 585px;
+          margin: 50px auto;
+          padding: 20px;
+          border: 1px solid #0a0505;
+          background-color: transparent;
+          box-shadow: 0 0 10px rgba(197, 8, 8, 0.1);
+          
+      }
+     
+  label {
+            font-weight: bold;
+            color: #333;
+        }
+           
+        input[type="text"],
+        input[type="email"],
+        
+        select {
+            padding: 10px;
+           margin: 5px 0; 
+             box-sizing: border-box; 
+            outline-color: blue; /* Focused input border color */
+        }
+        input[type="number"]{
+          width: 170%;
+          padding: 10px;
+          margin: 5px 0; 
+           border-radius: 5px;
+            box-sizing: border-box; 
+           outline-color: blue; 
+        }
+        .birthdate select{
+          width: 30% !important;
+        }
+        textarea{
+          /* margin-left: 12px; */
+          outline-color:2px solid blue;
+          box-sizing: border-box;
+          border: 2px solid;
+        }
+       
+        input[type="submit"],
+        input[type="reset"] {
+            width: 100%;
+            background-color: #4CAF50; /* Green submit button */
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 12px;
+            margin-left: 15px;
+        }
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #45a049;
+        }
+        .error {
+            color: red;
+        }
+   
+      div.registrationForm{
+       overflow:auto;
+       margin-top: 5px;
+       margin-bottom: 5px;
+
+  }
+      div.registrationForm div{
+       float: left;
+   }
+      .StudentName{
+        padding: 10px; 
+        width: center;
+        margin: 0px;
+      
+  }
+      .registrationForm {
+       display: flex; /* Set display to flex */
+      /* padding: 40px; */ 
+  }
+
+     .birthdate{
+      margin-left: 12px;
+      display: inline-block;
+      width: 48%;
+      
+
+}
+   .gender{
+          
+  /* margin-bottom: 5px; */
+  display: inline-block;
+  width: 48%;
+  text-align: center;
+
+   }
+     
+    .gender select {
+   
+      width: 100% !important;
+    }  
+    .gender label{
+      margin-right: 217px;
+    }
+    .courses select{
+      width: 97% !important;
+      border: 2px solid !important;
+    }
+    .worknumber {
+      margin-left: 15px;
+    }
+    
+   .address{
+  margin-left: 12px;
+  margin-bottom: 0px;
+}    
+.state{
+margin-left: 12px;
+
+}
+.province{
+  margin-left: 15px;
+}
+
+div.state{
+  overflow: auto;
+}
+div.state div{
+  float: left;
+}
+div.contact{
+overflow: auto;
+margin-left: 12px;
+
+
+}
+div.contact div{
+float: left;
+}
+.number{
+margin-left: 12px;
+}
+.worknumber{
+  margin-left: 100px;
+  width: auto;
+}
+div.contact div.number2 div.worknumber{
+/* overflow: auto; */
+  float: left;
+  margin-left: 145px;
+}
+.courses{
+  margin-left: 12px;
+}
+div.submit{
+  overflow:auto;
+}
+div.submit div{
+  float: left;
+  
+}
+.reset{
+  margin-left: 440px;
+}
+.spacer{
+  margin-left: 12px;
+}
+  
